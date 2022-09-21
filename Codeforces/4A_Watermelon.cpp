@@ -6,7 +6,7 @@
 #include<cmath>
 #include<map>
 #include<set>
-#define fio ios::sync_with_stdio(0);cin.tie(0);
+// #define fio ios::sync_with_stdio(0);cin.tie(0);
 #define ll long long int
 using namespace std;
 
@@ -15,10 +15,9 @@ int main() {
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
-	string s;
 #endif
 
-	fio;
+	// fio;
 	int t;
 	cin >> t;
 	if ((t % 2) % 2 == 0 && t > 2) {
@@ -27,4 +26,5 @@ int main() {
 	else {
 		cout << "NO" << endl;
 	}
+	cout<<"Hello"<<endl;
 }

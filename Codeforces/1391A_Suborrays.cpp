@@ -11,15 +11,20 @@
 using namespace std;
 
 int main() {
-cout << "Hello";
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
 
-	fio;
-	string s;
-	cin >> s;
-	s[0] = toupper(s[0]);
-	cout << s << endl;
+    fio;
+    int t;
+    cin >> t;
+    int arr[101];
+    for(int i=0;i<100;i++){
+        arr[i] = i+1;
+    }
+    while (t--) {
+     int n;
+     cin>>n;
+     for(int i=0;i<n;i++){
+         cout<<arr[i]<<" ";
+     }
+     cout<<endl;
+    }
 }
